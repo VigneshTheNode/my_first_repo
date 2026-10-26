@@ -1,0 +1,24 @@
+# Secrets - never commit these
+.env
+*.key
+*.pem
+secrets.*
+config.local.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
